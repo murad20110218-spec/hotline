@@ -1,0 +1,1 @@
+{"name": "Hotline Server", "image": "mcr.microsoft.com/devcontainers/python:3.11", "postCreateCommand": "pip install -r requirements.txt", "forwardPorts": [8765], "portsAttributes": {"8765": {"label": "Game Server", "visibility": "public"}}}
